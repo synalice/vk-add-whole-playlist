@@ -60,7 +60,7 @@ function getRandomNumber(min, max) {
 function getAudioRows() {
   console.log("Нужно продолжить с конкретной песни? (1 - если нужно, 0 - если нет)");
   console.log("(все песни при работе скрипта добавляются начиная от низа плейлиста и к верху)");
-  const needToContinue = parseInt(prompt(">>> "))
+  const needToContinue = parseInt(prompt("Нужно продолжить с конкретной песни? (1 - если нужно, 0 - если нет) "))
 
   let songToStartFrom
 
